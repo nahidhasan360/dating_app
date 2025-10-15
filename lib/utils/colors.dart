@@ -17,11 +17,10 @@ class AppColors {
   // ====================  Gradient Color is end  =====================//
 
 
-
-
-  static const Color primary = Colors.pink;
+  static const Color primary = Color(0x1affffff);
   static const Color black = Colors.black;
   static const Color white = Colors.white;
+  static const Color boxColor = Color(0xff4a3548);
   static const Color systemStatus =  Color(0xFF5C2552);
 
 

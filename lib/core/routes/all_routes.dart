@@ -12,7 +12,6 @@ class AppRoutes {
   // ================== welcome screen =====================//
   static const String welcomeScreen = "/WelcomeScreen";
 
-
    // bridge
 
 

@@ -1,4 +1,5 @@
 import 'package:dating_apps/utils/colors.dart';
+import 'package:dating_apps/views/home_screen/welcome_screen/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
