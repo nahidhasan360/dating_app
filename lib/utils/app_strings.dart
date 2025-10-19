@@ -14,9 +14,10 @@ class   AppStrings {
   static const String welcomeSecond1 = "Find your Perfect Match";
   static const String welcomeSecond2 = "Connect, chat, and build a bond that feels real";
 
-
-
 // ============================== End welcome Screen ===========================
+// ============================== Home Screen ================================
+
+
 
 
 

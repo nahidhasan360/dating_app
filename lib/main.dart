@@ -1,5 +1,4 @@
 import 'package:dating_apps/utils/colors.dart';
-import 'package:dating_apps/views/home_screen/welcome_screen/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -41,7 +40,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         defaultTransition: Transition.fadeIn,
         transitionDuration: const Duration(milliseconds: 200),
-        initialRoute: AppRoutes.onboarding1,
+        initialRoute: AppRoutes.homeScreen,
         navigatorKey: Get.key,
         getPages: AppRoutes.routes,
       ),
