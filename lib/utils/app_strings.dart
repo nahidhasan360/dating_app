@@ -5,7 +5,7 @@ class   AppStrings {
 
   // this is a welcome screen first screen
   static const String welcomeFirst1 = "Find your AI Partner\nwith us";
-  static const String welcomeFirst2 = "Let’s spend some amazing time together!";
+  static const String welcomeFirst2 = "Let’s spend some amazing time\ntogether!";
   static const String next = "Next";
 
 
@@ -15,7 +15,9 @@ class   AppStrings {
   static const String welcomeSecond2 = "Connect, chat, and build a bond that feels real";
 
 // ============================== End welcome Screen ===========================
+
 // ============================== Home Screen ================================
+
 
 
 

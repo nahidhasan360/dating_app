@@ -14,8 +14,10 @@ class AppRoutes {
   // ================== welcome screen =====================//
   static const String welcomeScreen = "/WelcomeScreen";
 
-  // ============================== Home Screen ================================
+  // ================ Home Screen ================================
   static const String homeScreen ="/HomeScreen" ;
+
+
    // bridge
 
 
@@ -24,13 +26,13 @@ class AppRoutes {
   GetPage(name: onboarding1, page: () => Onboarding()),
   GetPage(name: onboarding2, page: () => Onboarding2(),
     transition: Transition.fadeIn,
-    transitionDuration: const Duration(seconds: 7),),
+    transitionDuration: const Duration(seconds: 1),),
 
 
     // ====================== welcome screen =============================//
   GetPage(name:welcomeScreen, page:() => WelcomeScreen(),
-   transition: Transition.fade,
-    transitionDuration: const Duration(seconds: 6),
+   transition: Transition.native,
+    transitionDuration: const Duration(seconds: 1),
   ),
 
 // ============================== Home Screen ================================

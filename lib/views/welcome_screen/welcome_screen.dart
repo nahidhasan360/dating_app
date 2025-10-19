@@ -70,14 +70,24 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                         top: 30,
                       ),
 
-                      SizedBox( height: 20,),
+                      SizedBox( height: 18.h),
                       CustomText(
                         text: AppStrings.welcomeFirst2,
                         color: AppColors.white,
-                        fontWeight: FontWeight.w700,
+                        fontWeight: FontWeight.w500,
                         fontSize: 14,
                         textAlign: TextAlign.center,
                       ),
+                      SizedBox( height: 10.h),
+                      Container(
+                         width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                           color: AppColors.boxColor,
+                          shape:BoxShape.circle
+                        )
+
+                        ,)
 
 
 

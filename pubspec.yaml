@@ -95,10 +95,10 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
 
-  fonts:
-    - family: jsMath
-      fonts:
-        - asset: assets/fonts/jsMath-cmmi10.ttf
+  #  fonts:
+  #    - family: jsMath
+  #      fonts:
+  #        - asset:
 
   #
   # For details regarding fonts from package dependencies,
